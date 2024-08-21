@@ -38,7 +38,7 @@ endif
 
 if host_os == 'linux'
   labrat_files += [
-    'gopher-linux-' + host_abi,
+    'gopher-linux-x86_64',
     'sleeper-linux-' + host_abi,
     'forker-linux-' + host_abi,
     'spawner-linux-' + host_abi,
